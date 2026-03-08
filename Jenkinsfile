@@ -3,11 +3,11 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/Nikhil-SY/Java_app.git'
-            }
-        }
+        // stage('Clone Repository') {
+        //     steps {
+        //         git 'https://github.com/Nikhil-SY/Java_app.git'
+        //     }
+        // }
 
         stage('Build Maven Project') {
             steps {
